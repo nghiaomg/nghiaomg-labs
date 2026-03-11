@@ -100,7 +100,8 @@ export default function Home() {
                                 className="group cursor-pointer flex flex-col md:grid md:grid-cols-12 gap-8 items-center"
                             >
                                 {/* Text Info */}
-                                <div className="w-full md:col-span-5 flex flex-col justify-center order-2 md:order-1 pt-4 md:pt-0">
+                                <div className={`w-full md:col-span-5 flex flex-col justify-center pt-4 md:pt-0 ${index % 2 === 0 ? "order-2 md:order-1" : "order-2 md:order-2"
+                                    }`}>
                                     <div className="flex gap-4 items-center mb-6 text-zinc-500 font-mono text-sm uppercase tracking-widest">
                                         <span>{String(index + 1).padStart(2, '0')}</span>
                                         <span className="w-12 h-px bg-zinc-300 dark:bg-zinc-700" />
@@ -117,7 +118,8 @@ export default function Home() {
                                     </div>
                                 </div>
                                 {/* Image Parallax */}
-                                <div className="w-full md:col-span-7 h-[400px] md:h-[600px] overflow-hidden rounded-2xl order-1 md:order-2 bg-zinc-100 dark:bg-zinc-900 relative">
+                                <div className={`w-full md:col-span-7 h-[400px] md:h-[600px] overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900 relative ${index % 2 === 0 ? "order-1 md:order-2" : "order-1 md:order-1"
+                                    }`}>
                                     <motion.img
                                         style={{ y: yImage }}
                                         src={project.image}
