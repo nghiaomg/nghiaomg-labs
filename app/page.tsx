@@ -44,7 +44,7 @@ export default function Home() {
     return (
         <div className="flex min-h-screen flex-col bg-background text-foreground font-sans selection:bg-primary selection:text-primary-foreground">
             <Navbar />
-            <main className="flex-1 w-full flex flex-col items-center pt-16">
+            <main className="flex-1 w-full flex flex-col items-center">
                 {/* HERO */}
                 <section className="w-full min-h-[90vh] flex flex-col items-center justify-center py-20 px-6 max-w-7xl mx-auto">
                     <motion.div

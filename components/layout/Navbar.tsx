@@ -17,19 +17,19 @@ export function Navbar() {
                 <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
                     <nav className="flex items-center space-x-6 text-sm font-medium">
                         <Link
-                            href="#philosophy"
+                            href="/#philosophy"
                             className="transition-colors hover:text-foreground/80 text-foreground/60"
                         >
                             Philosophy
                         </Link>
                         <Link
-                            href="#projects"
+                            href="/projects"
                             className="transition-colors hover:text-foreground/80 text-foreground/60"
                         >
                             Projects
                         </Link>
                         <Link
-                            href="#tech-stack"
+                            href="/#tech-stack"
                             className="transition-colors hover:text-foreground/80 text-foreground/60"
                         >
                             Tech Stack
