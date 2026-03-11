@@ -1,4 +1,4 @@
-import { Code2, Server, Terminal, Workflow } from "lucide-react";
+import { Code2, Terminal, Workflow } from "lucide-react";
 
 export const projects = [
     {

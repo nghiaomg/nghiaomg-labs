@@ -19,7 +19,7 @@ export function Footer() {
                 </div>
 
                 <p className="text-sm font-medium italic text-muted-foreground/80">
-                    "Clean systems scale. Hacks collapse."
+                    &quot;Clean systems scale. Hacks collapse.&quot;
                 </p>
             </div>
         </footer>
